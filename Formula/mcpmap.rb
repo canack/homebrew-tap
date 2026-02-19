@@ -1,25 +1,25 @@
 class Mcpmap < Formula
   desc "Discover MCP (Model Context Protocol) servers on network ranges"
   homepage "https://github.com/canack/mcpmap"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/canack/mcpmap/releases/download/v0.1.0/mcpmap-aarch64-apple-darwin.tar.xz"
-      sha256 "feac06cc9f857df22f21cf131d151a8bcf5f56a68d28c44501efdf858df1c7da"
+      url "https://github.com/canack/mcpmap/releases/download/v0.1.1/mcpmap-aarch64-apple-darwin.tar.xz"
+      sha256 "362f0e3bb11e471ebc5d6fda64c30a9851fd17bca3546c9f3795fd6425516686"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/canack/mcpmap/releases/download/v0.1.0/mcpmap-x86_64-apple-darwin.tar.xz"
-      sha256 "cd7f34e4d9f56e6f6e1007c4a50c2fbf6f03698eb68554ab4c8e940cf9375199"
+      url "https://github.com/canack/mcpmap/releases/download/v0.1.1/mcpmap-x86_64-apple-darwin.tar.xz"
+      sha256 "b7c1bb4d83a4099497caa6a03c5b77b3df9b57fe5472be1157300d60bff0d7b3"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/canack/mcpmap/releases/download/v0.1.0/mcpmap-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "98fc1d238ea9b37b306ea2ad0a0b743641139fbae046d4cf82fab4918b202518"
+      url "https://github.com/canack/mcpmap/releases/download/v0.1.1/mcpmap-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a3172618cf42be94b2d2a60f0e7b6e2992b39f5947a32a762595387f892f9092"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/canack/mcpmap/releases/download/v0.1.0/mcpmap-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "deb971ac70c5f3a7888132f371af5665e63bc02fbff71eeb420fa91b2b48dc92"
+      url "https://github.com/canack/mcpmap/releases/download/v0.1.1/mcpmap-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "baaa81c9ff29e3c1e4319e0154d36b3262a79f084e2a61e4833ac6b7555677a6"
     end
   end
   license "MIT"
